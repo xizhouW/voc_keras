@@ -48,7 +48,7 @@ class voc_reader:
         file_name_list=[]
         with open(file_path, 'r') as file_to_read:
             while True:
-                lines = file_to_read.readline().strip()  # 整行读取数据
+                lines = file_to_read.readline().strip()  # 整行读取数据,去掉空格
                 if not lines:
                     break
                     pass
